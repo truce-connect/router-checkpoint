@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(9, 7, 22);
+  color: antiquewhite;
+}
+
+.first{
+  padding-left: 50px;
+  padding-right: 80px;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  gap: 30px;
+  
+}
+
+.form{
+    margin-left: 30%;
+
+}
+
+.form input {
+  width: 500px;
+  height: 30px;
+  margin: 20px 0;
+}
